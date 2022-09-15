@@ -13,6 +13,7 @@
 ## Summary:
 Drawback:
 - The site does not provide a list of citations as to where this information was retreived from for the user to reference. 
+
 Recommendations:
 - Provide a heat map of the all the locations on the list after the filtered search is used to show the frequency of the UFO sightenings in that area. 
 - User friendly search filter ERROR notice sign with instructions, to provide a solution to an incorrect input.  
