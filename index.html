@@ -13,9 +13,9 @@
     />
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body class="bg-dark"></body>
+<body class="bg-dark">
     <div class="wrapper">
-        <nav class="navbar navbar-dark bg-dark navbar-expand-lg"></nav>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
           </nav>
     </div>
@@ -49,37 +49,35 @@
             </div>
         </div>
           <!----------------- Search Filter ---------------->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-3">
-                <form class="bg-dark">
-                    <p>Filter Search</p>
-                    <ul class="bg-dark list-group">
-                        <li class="bg-dark list-group-item">
-                            <label for="date">Enter Date</label>
-                            <input type="text" placeholder="1/10/2010" id="datetime" />
-                        </li>
-                        <li class="bg-dark list-group-item">
-                            <label for="date">Enter a City</label>
-                            <input type="text" placeholder="fresno" id="city" />
-                        </li>
-                        <li class="bg-dark list-group-item">
-                            <label for="date">Enter a State</label>
-                            <input type="text" placeholder="ca" id="state" />
-                        </li>
-                        <li class="bg-dark list-group-item">
-                            <label for="date">Enter a Country</label>
-                            <input type="text" placeholder="us" id="country" />
-                        </li>
-                        <li class="bg-dark list-group-item">
-                            <label for="date">Enter a Shape</label>
-                            <input type="text" placeholder="circle" id="shape" />
-                        </li>
-                        <div class="col-md-9">
-                        </div>
-                    </ul>
-                </form>
-            </div>
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <form class="bg-dark">
+                        <p>Filter Search</p>
+                        <ul class="list-group">
+                            <li class="list-group-item bg-dark">
+                                <label for="date">Enter Date</label>
+                                <input type="text" placeholder="1/10/2010" id="datetime"/>
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="city">Enter a City</label><br>
+                                <input type="text" placeholder="roswell" id="city"/>
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="state">Enter a State</label><br>
+                                <input type="text" placeholder="ca" id="state"/>
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="country">Enter a Country</label><br>
+                                <input type="text" placeholder="us" id="country"/>
+                            </li>
+                            <li class="list-group-item bg-dark">
+                                <label for="shape">Enter a Shape</label><br>
+                                <input type="text" placeholder="circle" id="shape"/>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
     <!------------------ Table ------------------>
             <div class="col-md-9">
                 <table class="table table-striped">
